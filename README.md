@@ -2,10 +2,10 @@
 
 Class CSS pour facilité le l'intégration responsive avec unsemantic
 
-Cette class vous permettra de faciliter l'intégration responsive avec Unsemantic car elle vous permets de gérer des priorités de mise en forme et positionnement de blocs dans la même logique que Unsemantic pour définir sur quel affichage appliquer ces propriétés:
+Cette class vous permettra de faciliter l'intégration responsive avec Unsemantic car elle vous permet de gérer des priorités de mise en forme et positionnement de blocs dans la même logique que Unsemantic pour définir sur quel affichage appliquer ces propriétés:
 
 Par exemple en autre les possibilités de unsemantic qui gère les grilles par palier de 5% et le display block ou none cela l'affichage.
-Vous pourrez définir si un element du dom est en block, inline ou inline bloc, l'alignement du texte, le float, le text-transform...
+Vous pourrez définir si un élément du dom est en block, inline ou inline bloc, l'alignement du texte, le float, le text-transform...
 Une autre fonctionnement qui m'est très pratique est la gestion de l'espacement suivant l'affichage. Quand on passe au format mobile les éléments se chevauche et on souhaite parfois les aérer un peu. Avec cette Addon vous aurez 1800 classes d'espacement suivant l'affichage.
 ex : 
 ```sh
@@ -114,7 +114,7 @@ Aucune diférence avec Unsemantic
 <div class="destkop-... //Pour l'affichage Ecran (+ de 1025px)
 ```
 
-La différence est que toutes les classes sont appellées aussi sans les @medias query pour être appliqué dans toutes les configurations
+La différence est que toutes les classes sont appelées aussi sans les @medias query pour être appliqué dans toutes les configurations
 
 Au lieu de 
 
