@@ -7,7 +7,11 @@ Cette class vous permettra de faciliter l'intégration responsive avec Unsemanti
 Par exemple en autre les possibilités de unsemantic qui gère les grilles par palier de 5% et le display block ou none cela l'affichage.
 Vous pourrez définir si un element du dom est en block, inline ou inline bloc, l'alignement du texte, le float, le text-transform...
 Une autre fonctionnement qui m'est très pratique est la gestion de l'espacement suivant l'affichage. Quand on passe au format mobile les éléments se chevauche et on souhaite parfois les aérer un peu. Avec cette Addon vous aurez 1800 classes d'espacement suivant l'affichage.
-ex : <div class="space-10 mobile-space-30"></div> (un espace de 10px dans toute les configurations avec un espace de 30px pour l'affichage mobile)
+ex : 
+```sh
+<div class="space-10 mobile-space-30"></div> 
+```
+(un espace de 10px dans toute les configurations avec un espace de 30px pour l'affichage mobile)
 
 Les propriétés :
 Elles sont toutes défini initialement + affichage mobile, tablette, écran
@@ -55,7 +59,7 @@ Ajoutez une ou plusieurs classes à votre élément du DOM
 
 Ex : 
 
-
+```sh
 <div class="grid-container grid-parent">
 
   <div class="grid-50 tablet-grid-50 mobile-grid-100">
@@ -72,7 +76,7 @@ Ex :
   </div>
 
 </div>
-
+```
 Description :
 
 Dans une grille Unsemantic on crée 2 colonnes en version Desktop et Tablet, 1 colonne en version mobile
