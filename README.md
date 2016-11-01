@@ -77,29 +77,29 @@ Ex :
 
 </div>
 ```
-Description :
+##Description :
 
 Dans une grille Unsemantic on crée 2 colonnes en version Desktop et Tablet, 1 colonne en version mobile
 
-  Desktop :
-    - 2 colonnes
-    - On affiche une bulle info en block
-    - On dit défini une largeur maximum de 100% à l'image
-    - On ne crée pas d'espace sous l'image
-    - On appel le texte de la colonne de droite en justifié
+####Desktop :
+- 2 colonnes
+- On affiche une bulle info en block
+- On dit défini une largeur maximum de 100% à l'image
+- On ne crée pas d'espace sous l'image
+- On appel le texte de la colonne de droite en justifié
     
-  Tablet :
-    - 2 colonnes
-    - On affiche une bulle info en inline-block
-    - On dit défini une largeur maximum de 100% à l'image
-    - On ne crée pas d'espace sous l'image
-    - On appel le texte de la colonne de droite en justifié
+####Tablet :
+- 2 colonnes
+- On affiche une bulle info en inline-block
+- On dit défini une largeur maximum de 100% à l'image
+- On ne crée pas d'espace sous l'image
+- On appel le texte de la colonne de droite en justifié
  
-   Mobile :
-    - 1 colonne, 2 lignes
-    - On cache la bulle info
-    - On dit défini une largeur maximum de 100% à l'image
-    - On crée espace de 20 pixeils sous l'image
-    - On appel le texte de la colonne de droite aligné a gauche
+####Mobile :
+- 1 colonne, 2 lignes
+- On cache la bulle info
+- On dit défini une largeur maximum de 100% à l'image
+- On crée espace de 20 pixeils sous l'image
+- On appel le texte de la colonne de droite aligné a gauche
     
 
