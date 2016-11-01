@@ -31,7 +31,7 @@ Elles sont toutes défini initialement + affichage mobile, tablette, écran
 - display:inline!important;
 - display:inline-block!important;
 - max-width:100%;
-- max-width:none;
+- max-width:none; 
 
 Espacement :
 Pour chaque affichage vous pourrez définir un espacement différent de la même façon de 0 à 449px de height;
