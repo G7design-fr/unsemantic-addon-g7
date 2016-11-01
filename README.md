@@ -53,7 +53,7 @@ http://unsemantic.com
 
 Appeller la class css après Unsemantic
 
-# Utilisation
+# Exemple
 
 Ajoutez une ou plusieurs classes à votre élément du DOM 
 
@@ -101,5 +101,87 @@ Dans une grille Unsemantic on crée 2 colonnes en version Desktop et Tablet, 1 c
 - On dit défini une largeur maximum de 100% à l'image
 - On crée espace de 20 pixeils sous l'image
 - On appel le texte de la colonne de droite aligné a gauche
+
+# Lexique des classes
+
+##Utilisation des classes suivant d'affichage
+
+Aucune diférence avec Unsemantic
+
+```sh
+<div class="mobile-... //Pour l'affichage Mobile (- de 768px)
+<div class="tablet-... //Pour l'affichage Tablette (entre 769 et 1024px)
+<div class="destkop-... //Pour l'affichage Ecran (+ de 1025px)
+```
+
+La différence est que toutes les classes sont appellées aussi sans les @medias query pour être appliqué dans toutes les configurations
+
+Au lieu de 
+
+```sh
+<div class="mobile-display-block"></div>
+```
+
+il faudra appeller la classe 
+
+```sh
+<div class="display-block"></div>
+```
+
+(Les classes mobile-, tablet- et desktop- prennent le dessus sur une classe appellé sans query)
+
+##Liste des classes
+
+#### Textes
+
+* .text-left
+* .text-right
+* .text-center
+* .text-justify
+* .text-nowrap
+* .text-lowercase 
+* .text-uppercase 
+* .text-capitalize
+
+#### Block/inline
+
+* .pull-right
+* .pull-left
+* .pull-none
+* .display-block 
+* .display-inline
+* .display-inline-block
+* .maxw100 (max-width:100%;)
+* .maxwnone (max-width:none;)
+
+##Classes .Spaces
+
+Les classes .space ont la même logique :
+
+* .space-0
+* .space-none
+* .space-1
+* .space-2
+* ...
+* .space-449
+* .mobile-space-0
+* .mobile-space-none
+* .mobile-space-1
+* .mobile-space-2
+* ...
+* .mobile-space-449
+* .tablet-space-0
+* .tablet-space-none
+* .tablet-space-1
+* .tablet-space-2
+* ...
+* .tablet-space-449
+* .desktop-space-0
+* .desktop-space-none
+* .desktop-space-1
+* .desktop-space-2
+* ...
+* .desktop-space-449
+
     
 
