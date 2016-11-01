@@ -158,24 +158,36 @@ il faudra appeller la classe
 
 Les classes .space ont la même logique :
 
+
+Tous les affichages (non prioritaire sur les Querys) :
+
 * .space-0
 * .space-none
 * .space-1
 * .space-2
 * ...
 * .space-449
+
+Mobile :
+
 * .mobile-space-0
 * .mobile-space-none
 * .mobile-space-1
 * .mobile-space-2
 * ...
 * .mobile-space-449
+
+Tablette :
+
 * .tablet-space-0
 * .tablet-space-none
 * .tablet-space-1
 * .tablet-space-2
 * ...
 * .tablet-space-449
+
+Ecran :
+
 * .desktop-space-0
 * .desktop-space-none
 * .desktop-space-1
