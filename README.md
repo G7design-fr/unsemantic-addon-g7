@@ -1,12 +1,12 @@
 # Unsemantic addon g7 v1.0.1
 
-Class CSS pour facilité le l'intégration responsive avec unsemantic
+Class CSS pour faciliter l'intégration responsive avec unsemantic
 
-Cette class vous permettra de faciliter l'intégration responsive avec Unsemantic car elle vous permet de gérer des priorités de mise en forme et positionnement de blocs dans la même logique que Unsemantic pour définir sur quel affichage appliquer ces propriétés:
+Cette class vous permettra de faciliter l'intégration responsive avec Unsemantic car elle gère des priorités de mise en forme et positionnement de blocs dans la même logique que Unsemantic pour définir sur quel affichage appliquer ces propriétés:
 
-Par exemple en autre les possibilités de unsemantic qui gère les grilles par palier de 5% et le display block ou none cela l'affichage.
+Par exemple les possibilités de Unsemantic qui gère initialement les grilles par palier de 5% ainsi que le display block ou none selon l'affichage (Desktop, Tablet, Mobile).
 Vous pourrez définir si un élément du dom est en block, inline ou inline bloc, l'alignement du texte, le float, le text-transform...
-Une autre fonctionnement qui m'est très pratique est la gestion de l'espacement suivant l'affichage. Quand on passe au format mobile les éléments se chevauche et on souhaite parfois les aérer un peu. Avec cette Addon vous aurez 1800 classes d'espacement suivant l'affichage.
+Une autre fonctionnement qui m'est très pratique est la gestion de l'espacement suivant l'affichage. Quand on passe au format mobile les éléments se chevauchent et on souhaite parfois les aérer un peu. Avec cet Addon vous aurez 1800 classes d'espacement suivant l'affichage.
 ex : 
 ```sh
 <div class="space-10 mobile-space-30"></div> 
